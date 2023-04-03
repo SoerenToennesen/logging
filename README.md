@@ -87,7 +87,13 @@ URL:
 
 ``host:8080/api/logging/get/{id}``
 
+or 
+
+``host:8080/api/logging/gethistory/{id}``
+
 where the ID has to be in UUID format, ex. ``9ab86958-d22e-11ed-afa1-0242ac120002``.
+
+The GET request searches the log(s) for any string matching the ``{id}`` token provided in the request URL parameters.
 
 *****
 
