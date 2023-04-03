@@ -106,6 +106,8 @@ The architecture is created as a typical RESTful service. There is no update or 
 
 A client (currently no restrictions with authorization/authentication) can access the REST endpoints, which, depending on the request, will create, forward or get logs.
 
+The data model for the logging is described by the JSON in the "How to run" or "Demo" section. It can concretely be found under the models folder of the code. The logs in the flat file are written so they are easy to parse, where each line corresponds to a log and the attributes of a log is split by a ",".
+
 *****
 
 <a name="futurework"></a>
